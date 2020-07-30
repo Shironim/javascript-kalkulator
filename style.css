@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body, html {
+	font-family: "Roboto Mono";
+}
+/* Layouting Calculator */
+.calculator {
+	text-align: center;
+	margin: 100px auto 0 auto;
+	padding: 10px;
+	width: 400px;
+	background-color: #808080;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+.calc-screen-number {
+	width: 100%;
+	color: #fff;
+	text-align: right;
+	background-color: #252525;
+	font-size: 40px;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.row{
+	display: flex;
+}
+/* end Layouting */
+/* Calculator Button */
+.calc-btn{
+	margin-top: 10px;
+}
+.upper button,.operator{
+	border: 1px solid rgb(32, 32, 32);
+	background-color: rgb(56, 55, 55);
+}
+button{
+	font-size: 24px;
+	height: 65px;
+	/* margin: 1px; */
+	width: 25%;
+	border: 1px solid #000;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+.all-clear{
+	width: 50%;
+}
+.number{
+	font-weight: bold;
+}
+button:hover{
+	background-color: rgba(221, 216, 216, 0.2);
+}
+button:active{
+	background-color: rgba(221, 216, 216, 0.6);
+}
+.equal-sign{
+	background-color: rgba(72, 153, 39, 0.8);
+	border: 1px solid rgb(255, 255, 255,0.3);
+}
+.equal-sign:hover{
+	background-color: rgba(81, 235, 20, 0.5);
+}
+.equal-sign:active{
+	background-color: rgba(81, 235, 20, 0.8);
+}
+/* end Calculator Button */
